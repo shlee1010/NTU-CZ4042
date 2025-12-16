@@ -16,6 +16,12 @@ This project predicts the genre of a music track by combining two modalities: en
 ## Dataset
 Free Music Archive (FMA) dataset is used for this project and focused on 5 root genres: Rock, Electronic, Hip‑Hop, Folk, and Pop. Tracks with ambiguous multi‑label annotations are removed, and remaining child genres are mapped to their root genres to obtain 18k+ clean, single‑label examples. Each track is represented by both aggregated Librosa‑style audio features and spectrogram images, enabling the multimodal fusion experiments in this repo.
 
+## Methodology
+- CNN
+- MLP
+- Logit-level fusion
+- Feature-level fusion
+
 ## Contributors
 Sanghyun Lee, 
 Yumin Park, 
