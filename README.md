@@ -1,5 +1,5 @@
 # NTU-CZ4042
-Repo for NTU CZ4042 Neural Network and Deep Learning course
+Repo for NTU CZ4042 Neural Network and Deep Learning course project
 
 ## Overview
 This project predicts the genre of a music track by combining two modalities: engineered audio features and spectrogram images. It trains an MLP on tabular features, a CNN on spectrograms, a feautre level, and a logit‑level fusion model that integrates both to improve classification performance. The repo includes data preprocessing, exploratory data analysis, training scripts, evaluation scripts, and result visualisations.
